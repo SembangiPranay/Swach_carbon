@@ -1,0 +1,196 @@
+{"timestamp": "2026-04-23T17:26:37.507816", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated successfully", "module": "config"}
+{"timestamp": "2026-04-23T17:26:48.245328", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated successfully", "module": "config"}
+{"timestamp": "2026-04-23T17:28:10.334848", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated successfully", "module": "config"}
+{"timestamp": "2026-04-23T17:42:34.275772", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated successfully", "module": "config"}
+{"timestamp": "2026-04-23T17:42:48.007150", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated successfully", "module": "config"}
+{"timestamp": "2026-04-23T17:49:14.531258", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated successfully", "module": "config"}
+{"timestamp": "2026-04-23T17:50:19.997374", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated successfully", "module": "config"}
+{"timestamp": "2026-04-23T17:51:23.629447", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated successfully", "module": "config"}
+{"timestamp": "2026-04-23T17:51:58.272390", "level": "INFO", "logger": "swach_ai", "message": "======================================================================", "module": "main"}
+{"timestamp": "2026-04-23T17:51:58.272705", "level": "INFO", "logger": "swach_ai", "message": "SWACH AI CARBON AGENT API - Starting Up", "module": "main"}
+{"timestamp": "2026-04-23T17:51:58.273318", "level": "INFO", "logger": "swach_ai", "message": "======================================================================", "module": "main"}
+{"timestamp": "2026-04-23T17:51:58.273645", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated", "module": "main"}
+{"timestamp": "2026-04-23T17:51:58.275112", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Directories ready", "module": "main"}
+{"timestamp": "2026-04-23T17:51:58.275308", "level": "INFO", "logger": "swach_ai", "message": "\u2713 API ready at http://localhost:8000/docs", "module": "main"}
+{"timestamp": "2026-04-23T17:52:24.408660", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated successfully", "module": "config"}
+{"timestamp": "2026-04-23T17:52:40.202481", "level": "INFO", "logger": "swach_ai", "message": "======================================================================", "module": "main"}
+{"timestamp": "2026-04-23T17:52:40.202850", "level": "INFO", "logger": "swach_ai", "message": "SWACH AI CARBON AGENT API - Starting Up", "module": "main"}
+{"timestamp": "2026-04-23T17:52:40.202942", "level": "INFO", "logger": "swach_ai", "message": "======================================================================", "module": "main"}
+{"timestamp": "2026-04-23T17:52:40.203021", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated", "module": "main"}
+{"timestamp": "2026-04-23T17:52:40.203894", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Directories ready", "module": "main"}
+{"timestamp": "2026-04-23T17:52:40.203980", "level": "INFO", "logger": "swach_ai", "message": "\u2713 API ready at http://localhost:8000/docs", "module": "main"}
+{"timestamp": "2026-04-23T17:52:40.205277", "level": "INFO", "logger": "swach_ai", "message": "Shutting down API...", "module": "main"}
+{"timestamp": "2026-04-23T17:52:40.205370", "level": "INFO", "logger": "swach_ai", "message": "Cleanup complete", "module": "main"}
+{"timestamp": "2026-04-23T17:54:23.369513", "level": "INFO", "logger": "swach_ai", "message": "\u2192 GET /health from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-23T17:54:23.382758", "level": "INFO", "logger": "swach_ai", "message": "\u2190 GET /health 200 (0.01s)", "module": "middleware"}
+{"timestamp": "2026-04-23T17:54:42.525269", "level": "INFO", "logger": "swach_ai", "message": "\u2192 POST /calculate from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-23T17:54:42.533536", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Created calculation: dfc6fd88-eeed-4d2d-aa5b-1ac12c1dbe19 for TestCorp", "module": "streaming"}
+{"timestamp": "2026-04-23T17:54:42.536767", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Calculation queued: dfc6fd88-eeed-4d2d-aa5b-1ac12c1dbe19", "module": "main"}
+{"timestamp": "2026-04-23T17:54:42.537127", "level": "INFO", "logger": "swach_ai", "message": "\u2190 POST /calculate 200 (0.01s)", "module": "middleware"}
+{"timestamp": "2026-04-23T17:54:42.562991", "level": "INFO", "logger": "swach_ai", "message": "[dfc6fd88-eeed-4d2d-aa5b-1ac12c1dbe19] Starting agent execution...", "module": "main"}
+{"timestamp": "2026-04-23T17:54:43.676560", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: thought for dfc6fd88-eeed-4d2d-aa5b-1ac12c1dbe19", "module": "streaming"}
+{"timestamp": "2026-04-23T17:54:43.676666", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: action for dfc6fd88-eeed-4d2d-aa5b-1ac12c1dbe19", "module": "streaming"}
+{"timestamp": "2026-04-23T17:55:07.801263", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: observation for dfc6fd88-eeed-4d2d-aa5b-1ac12c1dbe19", "module": "streaming"}
+{"timestamp": "2026-04-23T17:55:07.801456", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Calculation complete: dfc6fd88-eeed-4d2d-aa5b-1ac12c1dbe19", "module": "streaming"}
+{"timestamp": "2026-04-23T17:55:07.801624", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: complete for dfc6fd88-eeed-4d2d-aa5b-1ac12c1dbe19", "module": "streaming"}
+{"timestamp": "2026-04-23T17:55:07.801772", "level": "INFO", "logger": "swach_ai", "message": "[dfc6fd88-eeed-4d2d-aa5b-1ac12c1dbe19] \u2713 Agent execution complete", "module": "main"}
+{"timestamp": "2026-04-23T17:56:17.509513", "level": "INFO", "logger": "swach_ai", "message": "\u2192 GET /stream from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-23T17:56:17.510433", "level": "INFO", "logger": "swach_ai", "message": "[dfc6fd88-eeed-4d2d-aa5b-1ac12c1dbe19] SSE stream opened", "module": "main"}
+{"timestamp": "2026-04-23T17:56:17.511009", "level": "INFO", "logger": "swach_ai", "message": "\u2190 GET /stream 200 (0.00s)", "module": "middleware"}
+{"timestamp": "2026-04-23T17:56:17.512760", "level": "INFO", "logger": "swach_ai", "message": "[dfc6fd88-eeed-4d2d-aa5b-1ac12c1dbe19] \u2713 SSE stream complete", "module": "main"}
+{"timestamp": "2026-04-23T17:56:34.720458", "level": "INFO", "logger": "swach_ai", "message": "\u2192 GET /stats from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-23T17:56:34.721457", "level": "INFO", "logger": "swach_ai", "message": "\u2190 GET /stats 200 (0.00s)", "module": "middleware"}
+{"timestamp": "2026-04-23T17:57:13.435374", "level": "INFO", "logger": "swach_ai", "message": "\u2192 GET /openapi.json from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-23T17:57:13.457484", "level": "INFO", "logger": "swach_ai", "message": "\u2190 GET /openapi.json 200 (0.02s)", "module": "middleware"}
+{"timestamp": "2026-04-23T17:58:20.247407", "level": "INFO", "logger": "swach_ai", "message": "\u2192 GET /health from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-23T17:58:20.247918", "level": "INFO", "logger": "swach_ai", "message": "\u2190 GET /health 200 (0.00s)", "module": "middleware"}
+{"timestamp": "2026-04-23T17:58:20.251554", "level": "INFO", "logger": "swach_ai", "message": "\u2192 POST /calculate from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-23T17:58:20.255000", "level": "INFO", "logger": "swach_ai", "message": "\u2190 POST /calculate 422 (0.00s)", "module": "middleware"}
+{"timestamp": "2026-04-23T17:58:20.258108", "level": "INFO", "logger": "swach_ai", "message": "\u2192 POST /calculate from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-23T17:58:20.259393", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Created calculation: 873d0f81-c383-4d05-914d-d5f30bbbcbc9 for IntegrationTest Inc", "module": "streaming"}
+{"timestamp": "2026-04-23T17:58:20.259601", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Calculation queued: 873d0f81-c383-4d05-914d-d5f30bbbcbc9", "module": "main"}
+{"timestamp": "2026-04-23T17:58:20.259796", "level": "INFO", "logger": "swach_ai", "message": "\u2190 POST /calculate 200 (0.00s)", "module": "middleware"}
+{"timestamp": "2026-04-23T17:58:20.260446", "level": "INFO", "logger": "swach_ai", "message": "[873d0f81-c383-4d05-914d-d5f30bbbcbc9] Starting agent execution...", "module": "main"}
+{"timestamp": "2026-04-23T17:58:20.262979", "level": "INFO", "logger": "swach_ai", "message": "\u2192 GET /stream from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-23T17:58:20.263328", "level": "INFO", "logger": "swach_ai", "message": "[873d0f81-c383-4d05-914d-d5f30bbbcbc9] SSE stream opened", "module": "main"}
+{"timestamp": "2026-04-23T17:58:20.263825", "level": "INFO", "logger": "swach_ai", "message": "\u2190 GET /stream 200 (0.00s)", "module": "middleware"}
+{"timestamp": "2026-04-23T17:58:20.265326", "level": "INFO", "logger": "swach_ai", "message": "[873d0f81-c383-4d05-914d-d5f30bbbcbc9] SSE stream cancelled by client", "module": "main"}
+{"timestamp": "2026-04-23T17:58:21.168442", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: thought for 873d0f81-c383-4d05-914d-d5f30bbbcbc9", "module": "streaming"}
+{"timestamp": "2026-04-23T17:58:21.168542", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: action for 873d0f81-c383-4d05-914d-d5f30bbbcbc9", "module": "streaming"}
+{"timestamp": "2026-04-23T17:58:21.440831", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: observation for 873d0f81-c383-4d05-914d-d5f30bbbcbc9", "module": "streaming"}
+{"timestamp": "2026-04-23T17:58:21.440941", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Calculation complete: 873d0f81-c383-4d05-914d-d5f30bbbcbc9", "module": "streaming"}
+{"timestamp": "2026-04-23T17:58:21.441101", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: complete for 873d0f81-c383-4d05-914d-d5f30bbbcbc9", "module": "streaming"}
+{"timestamp": "2026-04-23T17:58:21.441199", "level": "INFO", "logger": "swach_ai", "message": "[873d0f81-c383-4d05-914d-d5f30bbbcbc9] \u2713 Agent execution complete", "module": "main"}
+{"timestamp": "2026-04-23T17:58:29.138516", "level": "INFO", "logger": "swach_ai", "message": "\u2192 GET /stream from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-23T17:58:29.138967", "level": "INFO", "logger": "swach_ai", "message": "[873d0f81-c383-4d05-914d-d5f30bbbcbc9] SSE stream opened", "module": "main"}
+{"timestamp": "2026-04-23T17:58:29.139627", "level": "INFO", "logger": "swach_ai", "message": "\u2190 GET /stream 200 (0.00s)", "module": "middleware"}
+{"timestamp": "2026-04-23T17:58:29.140993", "level": "INFO", "logger": "swach_ai", "message": "[873d0f81-c383-4d05-914d-d5f30bbbcbc9] \u2713 SSE stream complete", "module": "main"}
+{"timestamp": "2026-04-23T18:03:02.177372", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated successfully", "module": "config"}
+{"timestamp": "2026-04-23T18:03:25.651314", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated successfully", "module": "config"}
+{"timestamp": "2026-04-23T18:03:45.158957", "level": "INFO", "logger": "swach_ai", "message": "======================================================================", "module": "main"}
+{"timestamp": "2026-04-23T18:03:45.159539", "level": "INFO", "logger": "swach_ai", "message": "SWACH AI CARBON AGENT API - Starting Up", "module": "main"}
+{"timestamp": "2026-04-23T18:03:45.159804", "level": "INFO", "logger": "swach_ai", "message": "======================================================================", "module": "main"}
+{"timestamp": "2026-04-23T18:03:45.160013", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated", "module": "main"}
+{"timestamp": "2026-04-23T18:03:45.162604", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Directories ready", "module": "main"}
+{"timestamp": "2026-04-23T18:03:45.164650", "level": "INFO", "logger": "swach_ai", "message": "\u2713 API ready at http://localhost:8000/docs", "module": "main"}
+{"timestamp": "2026-04-23T18:03:46.415069", "level": "INFO", "logger": "swach_ai", "message": "\u2192 GET / from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-23T18:03:46.416850", "level": "INFO", "logger": "swach_ai", "message": "\u2190 GET / 405 (0.00s)", "module": "middleware"}
+{"timestamp": "2026-04-23T18:03:46.554308", "level": "INFO", "logger": "swach_ai", "message": "\u2192 GET /favicon.ico from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-23T18:03:46.557569", "level": "INFO", "logger": "swach_ai", "message": "\u2190 GET /favicon.ico 405 (0.00s)", "module": "middleware"}
+{"timestamp": "2026-04-24T11:42:49.204222", "level": "INFO", "logger": "swach_ai", "message": "Shutting down API...", "module": "main"}
+{"timestamp": "2026-04-24T11:42:49.210775", "level": "INFO", "logger": "swach_ai", "message": "Cleanup complete", "module": "main"}
+{"timestamp": "2026-04-24T11:43:20.207593", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated successfully", "module": "config"}
+{"timestamp": "2026-04-24T11:44:25.104474", "level": "INFO", "logger": "swach_ai", "message": "======================================================================", "module": "main"}
+{"timestamp": "2026-04-24T11:44:25.105199", "level": "INFO", "logger": "swach_ai", "message": "SWACH AI CARBON AGENT API - Starting Up", "module": "main"}
+{"timestamp": "2026-04-24T11:44:25.105471", "level": "INFO", "logger": "swach_ai", "message": "======================================================================", "module": "main"}
+{"timestamp": "2026-04-24T11:44:25.105701", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated", "module": "main"}
+{"timestamp": "2026-04-24T11:44:25.106797", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Directories ready", "module": "main"}
+{"timestamp": "2026-04-24T11:44:25.107018", "level": "INFO", "logger": "swach_ai", "message": "\u2713 API ready at http://localhost:8000/docs", "module": "main"}
+{"timestamp": "2026-04-24T12:16:52.092492", "level": "INFO", "logger": "swach_ai", "message": "\u2192 GET / from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-24T12:16:52.135725", "level": "INFO", "logger": "swach_ai", "message": "\u2190 GET / 405 (0.07s)", "module": "middleware"}
+{"timestamp": "2026-04-24T12:16:52.358936", "level": "INFO", "logger": "swach_ai", "message": "\u2192 GET /favicon.ico from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-24T12:16:52.359890", "level": "INFO", "logger": "swach_ai", "message": "\u2190 GET /favicon.ico 405 (0.00s)", "module": "middleware"}
+{"timestamp": "2026-04-24T12:16:54.705232", "level": "INFO", "logger": "swach_ai", "message": "\u2192 GET /favicon.ico from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-24T12:16:54.705781", "level": "INFO", "logger": "swach_ai", "message": "\u2190 GET /favicon.ico 405 (0.00s)", "module": "middleware"}
+{"timestamp": "2026-04-28T17:52:39.850029", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated successfully", "module": "config"}
+{"timestamp": "2026-04-28T17:52:48.771751", "level": "INFO", "logger": "swach_ai", "message": "Starting Uvicorn server...", "module": "main"}
+{"timestamp": "2026-04-28T17:52:48.811514", "level": "INFO", "logger": "swach_ai", "message": "======================================================================", "module": "main"}
+{"timestamp": "2026-04-28T17:52:48.811514", "level": "INFO", "logger": "swach_ai", "message": "SWACH AI CARBON AGENT API - Starting Up", "module": "main"}
+{"timestamp": "2026-04-28T17:52:48.811514", "level": "INFO", "logger": "swach_ai", "message": "======================================================================", "module": "main"}
+{"timestamp": "2026-04-28T17:52:48.811514", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated", "module": "main"}
+{"timestamp": "2026-04-28T17:52:48.813520", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Directories ready", "module": "main"}
+{"timestamp": "2026-04-28T17:52:48.813520", "level": "INFO", "logger": "swach_ai", "message": "\u2713 API ready at http://localhost:8000/docs", "module": "main"}
+{"timestamp": "2026-04-28T17:53:43.086599", "level": "INFO", "logger": "swach_ai", "message": "\u2192 POST /calculate from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-28T17:53:43.089116", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Created calculation: 8a75723c-0f70-4470-915f-0325cf8a9200 for tata", "module": "streaming"}
+{"timestamp": "2026-04-28T17:53:43.091003", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Calculation queued: 8a75723c-0f70-4470-915f-0325cf8a9200", "module": "main"}
+{"timestamp": "2026-04-28T17:53:43.091966", "level": "INFO", "logger": "swach_ai", "message": "\u2190 POST /calculate 200 (0.01s)", "module": "middleware"}
+{"timestamp": "2026-04-28T17:53:43.094568", "level": "INFO", "logger": "swach_ai", "message": "[8a75723c-0f70-4470-915f-0325cf8a9200] Starting agent execution...", "module": "main"}
+{"timestamp": "2026-04-28T17:53:44.267369", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: thought for 8a75723c-0f70-4470-915f-0325cf8a9200", "module": "streaming"}
+{"timestamp": "2026-04-28T17:53:44.267369", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: action for 8a75723c-0f70-4470-915f-0325cf8a9200", "module": "streaming"}
+{"timestamp": "2026-04-28T17:53:47.332951", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: observation for 8a75723c-0f70-4470-915f-0325cf8a9200", "module": "streaming"}
+{"timestamp": "2026-04-28T17:53:47.332951", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Calculation complete: 8a75723c-0f70-4470-915f-0325cf8a9200", "module": "streaming"}
+{"timestamp": "2026-04-28T17:53:47.332951", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: complete for 8a75723c-0f70-4470-915f-0325cf8a9200", "module": "streaming"}
+{"timestamp": "2026-04-28T17:53:47.332951", "level": "INFO", "logger": "swach_ai", "message": "[8a75723c-0f70-4470-915f-0325cf8a9200] \u2713 Agent execution complete", "module": "main"}
+{"timestamp": "2026-04-28T17:53:47.338948", "level": "INFO", "logger": "swach_ai", "message": "\u2192 GET /stream from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-28T17:53:47.339967", "level": "INFO", "logger": "swach_ai", "message": "[8a75723c-0f70-4470-915f-0325cf8a9200] SSE stream opened", "module": "main"}
+{"timestamp": "2026-04-28T17:53:47.341185", "level": "INFO", "logger": "swach_ai", "message": "\u2190 GET /stream 200 (0.00s)", "module": "middleware"}
+{"timestamp": "2026-04-28T17:53:47.344757", "level": "INFO", "logger": "swach_ai", "message": "[8a75723c-0f70-4470-915f-0325cf8a9200] \u2713 SSE stream complete", "module": "main"}
+{"timestamp": "2026-04-28T17:54:24.349202", "level": "INFO", "logger": "swach_ai", "message": "\u2192 POST /calculate from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-28T17:54:24.349720", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Created calculation: 419cbb02-6916-4d92-9177-b360f8a4dd70 for tata", "module": "streaming"}
+{"timestamp": "2026-04-28T17:54:24.349720", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Calculation queued: 419cbb02-6916-4d92-9177-b360f8a4dd70", "module": "main"}
+{"timestamp": "2026-04-28T17:54:24.350725", "level": "INFO", "logger": "swach_ai", "message": "\u2190 POST /calculate 200 (0.00s)", "module": "middleware"}
+{"timestamp": "2026-04-28T17:54:24.351726", "level": "INFO", "logger": "swach_ai", "message": "[419cbb02-6916-4d92-9177-b360f8a4dd70] Starting agent execution...", "module": "main"}
+{"timestamp": "2026-04-28T17:54:25.192023", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: thought for 419cbb02-6916-4d92-9177-b360f8a4dd70", "module": "streaming"}
+{"timestamp": "2026-04-28T17:54:25.192399", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: action for 419cbb02-6916-4d92-9177-b360f8a4dd70", "module": "streaming"}
+{"timestamp": "2026-04-28T17:54:28.267901", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: observation for 419cbb02-6916-4d92-9177-b360f8a4dd70", "module": "streaming"}
+{"timestamp": "2026-04-28T17:54:28.267901", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Calculation complete: 419cbb02-6916-4d92-9177-b360f8a4dd70", "module": "streaming"}
+{"timestamp": "2026-04-28T17:54:28.268899", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: complete for 419cbb02-6916-4d92-9177-b360f8a4dd70", "module": "streaming"}
+{"timestamp": "2026-04-28T17:54:28.268899", "level": "INFO", "logger": "swach_ai", "message": "[419cbb02-6916-4d92-9177-b360f8a4dd70] \u2713 Agent execution complete", "module": "main"}
+{"timestamp": "2026-04-28T17:54:28.270992", "level": "INFO", "logger": "swach_ai", "message": "\u2192 GET /stream from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-28T17:54:28.271934", "level": "INFO", "logger": "swach_ai", "message": "[419cbb02-6916-4d92-9177-b360f8a4dd70] SSE stream opened", "module": "main"}
+{"timestamp": "2026-04-28T17:54:28.273118", "level": "INFO", "logger": "swach_ai", "message": "\u2190 GET /stream 200 (0.00s)", "module": "middleware"}
+{"timestamp": "2026-04-28T17:54:28.276408", "level": "INFO", "logger": "swach_ai", "message": "[419cbb02-6916-4d92-9177-b360f8a4dd70] \u2713 SSE stream complete", "module": "main"}
+{"timestamp": "2026-04-28T18:02:43.553671", "level": "INFO", "logger": "swach_ai", "message": "\u2192 POST /calculate from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-28T18:02:43.585330", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Created calculation: 096f659c-8799-4a1e-a492-bf46ac9f91f8 for 322431", "module": "streaming"}
+{"timestamp": "2026-04-28T18:02:43.589503", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Calculation queued: 096f659c-8799-4a1e-a492-bf46ac9f91f8", "module": "main"}
+{"timestamp": "2026-04-28T18:02:43.595332", "level": "INFO", "logger": "swach_ai", "message": "\u2190 POST /calculate 200 (0.05s)", "module": "middleware"}
+{"timestamp": "2026-04-28T18:02:43.606456", "level": "INFO", "logger": "swach_ai", "message": "[096f659c-8799-4a1e-a492-bf46ac9f91f8] Starting agent execution...", "module": "main"}
+{"timestamp": "2026-04-28T18:02:44.550018", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: thought for 096f659c-8799-4a1e-a492-bf46ac9f91f8", "module": "streaming"}
+{"timestamp": "2026-04-28T18:02:44.550018", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: action for 096f659c-8799-4a1e-a492-bf46ac9f91f8", "module": "streaming"}
+{"timestamp": "2026-04-28T18:02:47.699788", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: observation for 096f659c-8799-4a1e-a492-bf46ac9f91f8", "module": "streaming"}
+{"timestamp": "2026-04-28T18:02:47.699788", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Calculation complete: 096f659c-8799-4a1e-a492-bf46ac9f91f8", "module": "streaming"}
+{"timestamp": "2026-04-28T18:02:47.699788", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: complete for 096f659c-8799-4a1e-a492-bf46ac9f91f8", "module": "streaming"}
+{"timestamp": "2026-04-28T18:02:47.699788", "level": "INFO", "logger": "swach_ai", "message": "[096f659c-8799-4a1e-a492-bf46ac9f91f8] \u2713 Agent execution complete", "module": "main"}
+{"timestamp": "2026-04-28T18:02:47.704380", "level": "INFO", "logger": "swach_ai", "message": "\u2192 GET /stream from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-28T18:02:47.704380", "level": "INFO", "logger": "swach_ai", "message": "[096f659c-8799-4a1e-a492-bf46ac9f91f8] SSE stream opened", "module": "main"}
+{"timestamp": "2026-04-28T18:02:47.707136", "level": "INFO", "logger": "swach_ai", "message": "\u2190 GET /stream 200 (0.00s)", "module": "middleware"}
+{"timestamp": "2026-04-28T18:02:47.711374", "level": "INFO", "logger": "swach_ai", "message": "[096f659c-8799-4a1e-a492-bf46ac9f91f8] \u2713 SSE stream complete", "module": "main"}
+{"timestamp": "2026-04-29T12:05:00.496223", "level": "INFO", "logger": "swach_ai", "message": "Shutting down API...", "module": "main"}
+{"timestamp": "2026-04-29T12:05:00.506610", "level": "INFO", "logger": "swach_ai", "message": "Cleanup complete", "module": "main"}
+{"timestamp": "2026-04-29T12:05:06.241357", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated successfully", "module": "config"}
+{"timestamp": "2026-04-29T12:05:11.486646", "level": "INFO", "logger": "swach_ai", "message": "Starting Uvicorn server...", "module": "main"}
+{"timestamp": "2026-04-29T12:05:11.542291", "level": "INFO", "logger": "swach_ai", "message": "======================================================================", "module": "main"}
+{"timestamp": "2026-04-29T12:05:11.543329", "level": "INFO", "logger": "swach_ai", "message": "SWACH AI CARBON AGENT API - Starting Up", "module": "main"}
+{"timestamp": "2026-04-29T12:05:11.543329", "level": "INFO", "logger": "swach_ai", "message": "======================================================================", "module": "main"}
+{"timestamp": "2026-04-29T12:05:11.543329", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated", "module": "main"}
+{"timestamp": "2026-04-29T12:05:11.544364", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Directories ready", "module": "main"}
+{"timestamp": "2026-04-29T12:05:11.544364", "level": "INFO", "logger": "swach_ai", "message": "\u2713 API ready at http://localhost:8000/docs", "module": "main"}
+{"timestamp": "2026-04-29T12:06:13.477060", "level": "INFO", "logger": "swach_ai", "message": "\u2192 POST /calculate from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-29T12:06:13.511259", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Created calculation: 31d6c5a2-29d1-4649-964f-0bf5cfc0845a for ersda", "module": "streaming"}
+{"timestamp": "2026-04-29T12:06:13.516156", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Calculation queued: 31d6c5a2-29d1-4649-964f-0bf5cfc0845a", "module": "main"}
+{"timestamp": "2026-04-29T12:06:13.519833", "level": "INFO", "logger": "swach_ai", "message": "\u2190 POST /calculate 200 (0.04s)", "module": "middleware"}
+{"timestamp": "2026-04-29T12:06:13.546354", "level": "INFO", "logger": "swach_ai", "message": "[31d6c5a2-29d1-4649-964f-0bf5cfc0845a] Starting agent execution...", "module": "main"}
+{"timestamp": "2026-04-29T12:06:15.211204", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: thought for 31d6c5a2-29d1-4649-964f-0bf5cfc0845a", "module": "streaming"}
+{"timestamp": "2026-04-29T12:06:15.211204", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: action for 31d6c5a2-29d1-4649-964f-0bf5cfc0845a", "module": "streaming"}
+{"timestamp": "2026-04-29T12:06:18.359674", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: observation for 31d6c5a2-29d1-4649-964f-0bf5cfc0845a", "module": "streaming"}
+{"timestamp": "2026-04-29T12:06:18.360889", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Calculation complete: 31d6c5a2-29d1-4649-964f-0bf5cfc0845a", "module": "streaming"}
+{"timestamp": "2026-04-29T12:06:18.361404", "level": "DEBUG", "logger": "swach_ai", "message": "Event added: complete for 31d6c5a2-29d1-4649-964f-0bf5cfc0845a", "module": "streaming"}
+{"timestamp": "2026-04-29T12:06:18.361404", "level": "INFO", "logger": "swach_ai", "message": "[31d6c5a2-29d1-4649-964f-0bf5cfc0845a] \u2713 Agent execution complete", "module": "main"}
+{"timestamp": "2026-04-29T12:06:18.364929", "level": "INFO", "logger": "swach_ai", "message": "\u2192 GET /stream from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-29T12:06:18.364929", "level": "INFO", "logger": "swach_ai", "message": "[31d6c5a2-29d1-4649-964f-0bf5cfc0845a] SSE stream opened", "module": "main"}
+{"timestamp": "2026-04-29T12:06:18.366437", "level": "INFO", "logger": "swach_ai", "message": "\u2190 GET /stream 200 (0.00s)", "module": "middleware"}
+{"timestamp": "2026-04-29T12:06:18.372356", "level": "INFO", "logger": "swach_ai", "message": "[31d6c5a2-29d1-4649-964f-0bf5cfc0845a] \u2713 SSE stream complete", "module": "main"}
+{"timestamp": "2026-04-29T12:06:24.497448", "level": "INFO", "logger": "swach_ai", "message": "\u2192 GET /stream from 127.0.0.1", "module": "middleware"}
+{"timestamp": "2026-04-29T12:06:24.500076", "level": "INFO", "logger": "swach_ai", "message": "[31d6c5a2-29d1-4649-964f-0bf5cfc0845a] SSE stream opened", "module": "main"}
+{"timestamp": "2026-04-29T12:06:24.502082", "level": "INFO", "logger": "swach_ai", "message": "\u2190 GET /stream 200 (0.00s)", "module": "middleware"}
+{"timestamp": "2026-04-29T12:06:24.504072", "level": "INFO", "logger": "swach_ai", "message": "[31d6c5a2-29d1-4649-964f-0bf5cfc0845a] \u2713 SSE stream complete", "module": "main"}
+{"timestamp": "2026-04-29T12:06:36.241730", "level": "INFO", "logger": "swach_ai", "message": "Shutting down API...", "module": "main"}
+{"timestamp": "2026-04-29T12:06:36.241730", "level": "INFO", "logger": "swach_ai", "message": "Cleanup complete", "module": "main"}
+{"timestamp": "2026-04-29T12:06:48.948291", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated successfully", "module": "config"}
+{"timestamp": "2026-04-29T12:07:43.184831", "level": "INFO", "logger": "swach_ai", "message": "Starting Uvicorn server...", "module": "main"}
+{"timestamp": "2026-04-29T12:07:43.295849", "level": "INFO", "logger": "swach_ai", "message": "======================================================================", "module": "main"}
+{"timestamp": "2026-04-29T12:07:43.296256", "level": "INFO", "logger": "swach_ai", "message": "SWACH AI CARBON AGENT API - Starting Up", "module": "main"}
+{"timestamp": "2026-04-29T12:07:43.296702", "level": "INFO", "logger": "swach_ai", "message": "======================================================================", "module": "main"}
+{"timestamp": "2026-04-29T12:07:43.297111", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated", "module": "main"}
+{"timestamp": "2026-04-29T12:07:43.298181", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Directories ready", "module": "main"}
+{"timestamp": "2026-04-29T12:07:43.298514", "level": "INFO", "logger": "swach_ai", "message": "\u2713 API ready at http://localhost:8000/docs", "module": "main"}
+{"timestamp": "2026-04-29T12:57:00.300758", "level": "INFO", "logger": "swach_ai", "message": "Shutting down API...", "module": "main"}
+{"timestamp": "2026-04-29T12:57:00.308261", "level": "INFO", "logger": "swach_ai", "message": "Cleanup complete", "module": "main"}
+{"timestamp": "2026-04-29T12:57:07.471332", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated successfully", "module": "config"}
+{"timestamp": "2026-04-29T12:57:22.196739", "level": "INFO", "logger": "swach_ai", "message": "Starting Uvicorn server...", "module": "main"}
+{"timestamp": "2026-04-29T12:57:22.295886", "level": "INFO", "logger": "swach_ai", "message": "======================================================================", "module": "main"}
+{"timestamp": "2026-04-29T12:57:22.296208", "level": "INFO", "logger": "swach_ai", "message": "SWACH AI CARBON AGENT API - Starting Up", "module": "main"}
+{"timestamp": "2026-04-29T12:57:22.296420", "level": "INFO", "logger": "swach_ai", "message": "======================================================================", "module": "main"}
+{"timestamp": "2026-04-29T12:57:22.296605", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Configuration validated", "module": "main"}
+{"timestamp": "2026-04-29T12:57:22.297461", "level": "INFO", "logger": "swach_ai", "message": "\u2713 Directories ready", "module": "main"}
+{"timestamp": "2026-04-29T12:57:22.297783", "level": "INFO", "logger": "swach_ai", "message": "\u2713 API ready at http://localhost:8000/docs", "module": "main"}
